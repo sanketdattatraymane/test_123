@@ -1,5 +1,5 @@
 <?php
-	
+	/*
 	$bg=$_POST["bg"];
 	$con=mysqli_connect("localhost:5000","root","root","bloodbank");
 	$query="select donorName,donorEmail,gender,district from donors where bloodGroup='{$bg}'";
@@ -22,5 +22,5 @@
 	else{
 		echo " <h1 id='none' style='margin:15px 350px 15px 350px;'> No Records Found !! </h1>";
 	}
-
+*/
 ?>
