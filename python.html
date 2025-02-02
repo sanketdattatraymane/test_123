@@ -155,16 +155,16 @@
             <!-- Display the transcribed text here -->
             <div class="mysysms" id="transcription"></div>
 
-            {% if message %}
+<!--             {% if message %}
             <p>{{ message }}</p>
             {% endif %}
-            <br>
+            <br> -->
 
             <button type="submit" class="btn btn-danger btn-lg" style="width: 100%; padding: 14px; margin-bottom: 5px;">Predict</button>
         </form>
     </div>
 
-    {% if predicted_disease %}
+<!--     {% if predicted_disease %} -->
     <!-- Results -->
     <h1 class="text-center my-4 mt-4" style="color: #ffcb05;">Our ML System Results</h1>
     <div class="container">
@@ -177,7 +177,7 @@
             <button class="toggle-button btn btn-danger" data-bs-toggle="modal" data-bs-target="#dietsModal">Diets</button>
         </div>
     </div>
-    {% endif %}
+<!--     {% endif %} -->
 
     <!-- Disease Modal -->
     <div class="modal fade" id="diseaseModal" tabindex="-1" aria-labelledby="diseaseModalLabel" aria-hidden="true">
@@ -188,7 +188,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>{{ predicted_disease }}</p>
+<!--                     <p>{{ predicted_disease }}</p> -->
                 </div>
             </div>
         </div>
@@ -203,7 +203,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <p>{{ dis_des }}</p>
+<!--                     <p>{{ dis_des }}</p> -->
                 </div>
             </div>
         </div>
@@ -219,9 +219,9 @@
                 </div>
                 <div class="modal-body">
                     <ul>
-                        {% for i in my_precautions %}
+<!--                         {% for i in my_precautions %}
                             <li>{{ i }}</li>
-                        {% endfor %}
+                        {% endfor %} -->
                     </ul>
                 </div>
             </div>
@@ -238,9 +238,9 @@
                 </div>
                 <div class="modal-body">
                     <ul>
-                        {% for i in medications %}
+<!--                         {% for i in medications %}
                             <li>{{ i }}</li>
-                        {% endfor %}
+                        {% endfor %} -->
                     </ul>
                 </div>
             </div>
@@ -257,9 +257,9 @@
                 </div>
                 <div class="modal-body">
                     <ul>
-                        {% for i in workout %}
+<!--                         {% for i in workout %}
                             <li>{{ i }}</li>
-                        {% endfor %}
+                        {% endfor %} -->
                     </ul>
                 </div>
             </div>
@@ -276,16 +276,16 @@
                 </div>
                 <div class="modal-body">
                     <ul>
-                        {% for i in my_diet %}
+<!--                         {% for i in my_diet %}
                             <li>{{ i }}</li>
-                        {% endfor %}
+                        {% endfor %} -->
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 
-    <script>
+<!--     <script>
     const startSpeechRecognitionButton = document.getElementById('startSpeechRecognition');
     const transcriptionDiv = document.getElementById('transcription');
     const symptomsInput = document.getElementById('symptoms');
@@ -311,6 +311,6 @@
     }
     </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script> -->
 </body>
 </html>
