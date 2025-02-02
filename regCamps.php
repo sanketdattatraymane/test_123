@@ -1,5 +1,5 @@
 <?php
-/*
+
 
 $campName=$_POST["campName"];
 $campDate=$_POST["campDate"];
@@ -13,5 +13,5 @@ if(mysqli_query($con,$query)){
 else{
 	echo "error";
 }
-*/
+
 ?>
