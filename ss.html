@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Stroke Detection</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background: linear-gradient(135deg, #007bff, #0056b3);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .btn-danger {
+            background-color: #dc3545;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            transition: 0.3s;
+        }
+        .btn-danger:hover {
+            background-color: #a71d2a;
+        }
+        section {
+            padding: 60px 20px;
+        }
+        footer {
+            background: #222;
+        }
+        .feature-box {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+        .feature-box:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header class="text-white text-center p-4">
+        <h1 class="fw-bold">AI-Powered Stroke Detection</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#features">Features</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#how-it-works">How It Works</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="text-center bg-light">
+        <h2 class="fw-bold">Early Detection Saves Lives</h2>
+        <p class="lead">Our AI-powered system helps detect strokes in real-time.</p>
+        <img src="https://source.unsplash.com/800x400/?health,ai" class="img-fluid rounded shadow" alt="AI Stroke Detection">
+        <button class="btn btn-danger mt-4" onclick="startAnalysis()">Start Analysis</button>
+    </section>
+    
+    <section id="features" class="container text-center">
+        <h2 class="fw-bold mb-4">Features</h2>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="feature-box">
+                    <img src="https://source.unsplash.com/300x200/?technology,ai" class="img-fluid rounded" alt="AI Technology">
+                    <p class="mt-2">Facial asymmetry detection using AI</p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="feature-box">
+                    <img src="https://source.unsplash.com/300x200/?speech,analysis" class="img-fluid rounded" alt="Speech Analysis">
+                    <p class="mt-2">Speech pattern analysis</p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="feature-box">
+                    <img src="https://source.unsplash.com/300x200/?smartwatch,health" class="img-fluid rounded" alt="Wearable Integration">
+                    <p class="mt-2">Integration with smart wearables</p>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="feature-box">
+                    <img src="https://source.unsplash.com/300x200/?emergency,alert" class="img-fluid rounded" alt="Emergency Alert">
+                    <p class="mt-2">Emergency alert notifications</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="how-it-works" class="bg-light text-center">
+        <h2 class="fw-bold">How It Works</h2>
+        <p class="lead">1. Use your webcam to analyze facial features.<br>2. Check speech patterns for stroke symptoms.<br>3. Wearable data integration for heart rhythm detection.<br>4. Send emergency alerts if symptoms are detected.</p>
+    </section>
+    
+    <section id="contact" class="text-center">
+        <h2 class="fw-bold">Contact Us</h2>
+        <p>Email: <a href="mailto:support@strokedetect.com">support@strokedetect.com</a></p>
+        <p>Phone: +123 456 7890</p>
+    </section>
+    
+    <footer class="text-white text-center p-3">
+        <p>&copy; 2025 AI Stroke Detection. All Rights Reserved.</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function startAnalysis() {
+            alert("Starting AI analysis for stroke detection...");
+        }
+    </script>
+</body>
+</html>
