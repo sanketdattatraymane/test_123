@@ -10,16 +10,16 @@ $("#menu").click(function(){
 		}
 });
 
-// function loadCamp(){
-// 	$.ajax({
-// 		url:"addCamp.php",
-// 		type:"GET",
-// 		success:function(data){
-// 			$("#drtable").remove();
-// 			$("#dright").prepend(data);
-// 		}
-// 	});
-// }
+function loadCamp(){
+	$.ajax({
+		url:"addCamp.php",
+		type:"GET",
+		success:function(data){
+			$("#drtable").remove();
+			$("#dright").prepend(data);
+		}
+	});
+}
 
 $("#m-close").click(function(){
 	$("#load-map").hide();
