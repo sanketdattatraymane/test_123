@@ -1,5 +1,5 @@
 <?php
-
+/*
 $con=mysqli_connect("localhost:5000","root","root","bloodbank");
 $rows=mysqli_query($con,"select * from admins");
 if(mysqli_num_rows($rows)>0){
@@ -17,5 +17,5 @@ $output=$output."<th align='left'><input type='button' onclick=donorDelete('".$r
 else{
 	echo " No records are found !! ";
 }
-
+*/
 ?>
