@@ -1,5 +1,5 @@
 <?php
-
+/*
 $dname=$_POST["dname"];
 $mail=$_POST["dmail"];
 $loc=$_POST["dloc"];
@@ -26,5 +26,5 @@ if($response==1){
 else{
 	echo "false";
 }
-
+*/
 ?>
