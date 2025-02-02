@@ -1,5 +1,5 @@
 <?php
-	
+	/*
 	$mail=$_POST["email"];
 	$table=$_POST["table"];
 	$query="";
@@ -22,4 +22,5 @@
 	$r=mysqli_query($con,$query);
 	mysqli_close($con);
 	echo $r;
+*/
 ?>
