@@ -13,7 +13,7 @@ $("#menu").click(function(){
 function loadCamp(){
 	$.ajax({
 		url:"addCamp.php",
-		// type:"GET",
+		type:"GET",
 		// success:function(data){
 		// 	$("#drtable").remove();
 		// 	$("#dright").prepend(data);
