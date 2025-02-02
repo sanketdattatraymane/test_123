@@ -14,9 +14,9 @@ function loadCamp(){
 	$.ajax({
 		url:"addCamp.php",
 		type:"GET",
-		// success:function(data){
-		// 	$("#drtable").remove();
-		// 	$("#dright").prepend(data);
+		success:function(data){
+			$("#drtable").remove();
+			$("#dright").prepend(data);
 		}
 	});
 }
