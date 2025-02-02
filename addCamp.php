@@ -1,6 +1,6 @@
 
 <?php
-/*
+
 $con=mysqli_connect("localhost:5000","root","root","bloodbank");
 $query="select * from camps";
 $r=mysqli_query($con,$query);
@@ -21,5 +21,5 @@ if(mysqli_num_rows($r)>0){
 	$table=$table."</tbody></table>";
 	echo $table;
 }
-*/
+
 ?>
