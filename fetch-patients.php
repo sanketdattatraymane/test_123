@@ -1,5 +1,5 @@
 <?php
-
+/*
 $con=mysqli_connect("localhost:5000","root","root","bloodbank");
 
 $rows=mysqli_query($con,"select * from patients");
@@ -18,5 +18,5 @@ $output=$output."<th align='left'><input type='button' onclick=patientDelete('".
 else{
 	echo " No records are found !! ";
 }
-
+*/
 ?>
